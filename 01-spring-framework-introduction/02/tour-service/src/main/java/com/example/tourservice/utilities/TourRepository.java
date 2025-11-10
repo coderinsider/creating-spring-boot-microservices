@@ -25,3 +25,4 @@ public class TourRepository {
         return tours.stream().filter(t -> t.kidFriendly() == isKidFriendly).toList();
     }
 }
+
