@@ -21,7 +21,7 @@ public class TourRepository {
     }
 
     public List<Tour> findAll() {
-        return tours;
+        return tours; // let make the work processing
     }
 
     public List<Tour> findByType(Boolean isKidFriendly) {
